@@ -1,0 +1,502 @@
+{
+    "names": [
+        {
+            "reference": "DDD",
+            "name": "ReaderMessage",
+            "type": "",
+            "size": 20,
+            "transmissionType": null,
+            "period": null,
+            "exclTime": null,
+            "networks": [
+                {
+                    "name": "Vector__X"
+                }
+            ],
+            "pdu": {
+                "name": "ReaderMessage",
+                "signals": [
+                    {
+                        "bytePosition": 0,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "RaspID",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 1,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "BoxID",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 2,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "Production",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 1,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 3,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_00",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 4,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_01",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 5,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_02",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 6,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_03",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 7,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_04",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 8,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_05",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 9,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_06",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 10,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_07",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 11,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_08",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 12,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_09",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 13,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_10",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 14,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_11",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 15,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_12",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 16,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_13",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 17,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_14",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 18,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_15",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    },
+                    {
+                        "bytePosition": 19,
+                        "bitPosition": 0,
+                        "signal": {
+                            "name": "VIN_16",
+                            "size": 8,
+                            "unavailableValue": null,
+                            "values": [],
+                            "unit": "",
+                            "min": 0,
+                            "max": 255,
+                            "offset": 0,
+                            "resolution": 1,
+                            "signed": false,
+                            "is_float": false,
+                            "is_little": true,
+                            "mux_value": null,
+                            "is_multiplexer": false
+                        },
+                        "receivers": [
+                            "DTOOL"
+                        ]
+                    }
+                ]
+            },
+            "receivers": {
+                "Vector__X": [
+                    "DTOOL"
+                ]
+            },
+            "senders": {
+                "Vector__X": [
+                    "READER"
+                ]
+            },
+            "signals": []
+        }
+    ],
+    "connections": {
+        "READER": [
+            "Vector__X"
+        ],
+        "DTOOL": [
+            "Vector__X"
+        ]
+    }
+}
